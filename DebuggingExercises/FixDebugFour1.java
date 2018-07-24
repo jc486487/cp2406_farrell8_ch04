@@ -1,6 +1,6 @@
 // This program assigns values to two variables
 // and performs mathematical operations with them
-public class DebugFour1
+public class FixDebugFour1
 {
    public static void main(String args[])
    {
