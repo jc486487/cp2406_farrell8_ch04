@@ -2,13 +2,13 @@
 public class FixDebugFour3
 {
    public static void main(String args[]) {
-      int width = 12,
-              length = 10,
-              height = 8;
+      int width = 12;
+      int length = 10;
+      int height = 8;
       DebugBox box1 = new DebugBox();
       DebugBox box2 = new DebugBox(width, length, height);
       System.out.println("The dimensions of the first box are");
-      showVolume(box1);
+      box1.showData();
       System.out.println("  The volume of the first box is ");
       showVolume(box1);
       System.out.println("The dimensions of the second box are");
